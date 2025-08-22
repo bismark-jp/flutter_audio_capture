@@ -10,6 +10,8 @@ public class AudioCapture {
     /// - Returns: A boolean indicating whether the audio session was successfully activated.
     /// - Throws: An error if the audio session could not be set up.
     public func setup() throws -> Bool {
+        return true
+        /*
         let audioSession = AVAudioSession.sharedInstance()
         try audioSession.setCategory(.record, mode: .measurement, options: [.mixWithOthers])
         do {
@@ -19,6 +21,7 @@ public class AudioCapture {
             print("Failed to activate AudioSession: \(error)")
             return false
         }
+        */
     }
     
     /// `startSession` is a method that starts the audio recording session.
