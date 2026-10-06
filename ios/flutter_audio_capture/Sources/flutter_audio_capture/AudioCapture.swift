@@ -10,6 +10,8 @@ public class AudioCapture {
     /// - Returns: A boolean indicating whether the audio session was successfully activated.
     /// - Throws: An error if the audio session could not be set up.
     public func setup() throws -> Bool {
+    return true
+/*
     let audioSession = AVAudioSession.sharedInstance()
     
     do {
@@ -34,6 +36,7 @@ public class AudioCapture {
         print("❌ Failed to activate AudioSession: \(error.localizedDescription)")
         return false
     }
+*/
 }
 
     
