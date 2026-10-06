@@ -1,4 +1,5 @@
 import AVFoundation
+import Flutter
 
 /// `AudioCapture` is a class that handles audio recording and processing.
 public class AudioCapture {
